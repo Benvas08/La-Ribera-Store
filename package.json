@@ -1,0 +1,23 @@
+{
+  "name": "8-04-25-servidor-local",
+  "version": "1.0.0",
+    "main": "src/app.js",
+    "_comentario": "Main es nuestro entrypoint (punto de acceso)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "_comentario": "npm run dev, para ejecutar con nodemon"
+  },
+  "keywords": [],
+  "author": "Benjamin Ezequiel Vasques Perrone",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "_comentario": "nodemon nos permite actualizar nuestro servidor sin necesidad de apagar y volver a iniciar el servidor"
+  }
+}
