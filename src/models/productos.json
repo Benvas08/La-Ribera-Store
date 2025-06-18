@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "cafetera",
+        "precio": 1000,
+        "imagen": "img-cafetera-moulinex.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "computadora",
+        "precio": 1500,
+        "imagen": "img-macbook-pro-2019.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "telefono",
+        "precio": 800,
+        "imagen": "img-samsung-galaxy-s10.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "televisor",
+        "precio": 1200,
+        "imagen": "img-tv-samsung-smart.jpg"
+    }
+]
