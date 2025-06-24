@@ -1,5 +1,5 @@
 const path = require('node:path');
-const productos = require('../models/productos.json')
+const data = require('../models/productos.json')
 
 const controller = {
     //Para mostrar archivos .ejs

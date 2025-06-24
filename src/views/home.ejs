@@ -20,24 +20,24 @@
         </nav>
     </header>
     <section class="banner">
-        <img src="/imagenes/banner.jpg" alt="Promoción principal">
+        <img src="/img/banner.jpg" alt="Promoción principal">
     </section>
         <main>
         <section class="last-visit">
             <h3>Basado en tu última visita</h3>
             <div class="products">
+                <%  data.forEach((elemento,index)=> {  %>
                 <article>
-                    <img src="/imagenes/img-cafetera-moulinex.jpg" alt="Cafetera" class="product_img">
+                    <img src="img/<%= elemento.imagen %>" alt="Cafetera" class="product_img">
                     <div class="main-article">
                         <i class="fas fa-truck"></i>
-                        <p class="price">$6.770</p>
+                        <p class="price">$<%= elemento.precio %></p>
                         <p class="discount">40% off</p>
-                        <h4 class="description">Cafetera Moulinex</h4>
-                        <!-- <h1><%= title %></h1>
-                        <p><%= description %></p> -->
+                        <h4 class="description"><%= elemento.nombre %></h4>
                     </div>
                 </article>
-                <article>
+                <%  });  %>
+                <!-- <article>
                     <img src="/imagenes/img-macbook-pro-2019.jpg" alt="MacBook" class="product_img">
                     <div class="main-article">
                         <i class="fas fa-truck"></i>
@@ -63,22 +63,24 @@
                         <p class="discount">5% off</p>
                         <h4 class="description">SmartTv Samsung 43"</h4>
                     </div>
-                </article>
+                </article> -->
             </div>
         </section>
         <section class="offers">
             <h3>Ofertas</h3>
             <div class="products">
+                <%  data.forEach((elemento,index)=> {  %>
                 <article>
-                    <img src="/imagenes/img-cafetera-moulinex.jpg" alt="Cafetera" class="product_img">
+                    <img src="/img/<%= elemento.imagen %>" alt="Cafetera" class="product_img">
                     <div class="main-article">
                         <i class="fas fa-truck"></i>
-                        <p class="price">$6.770</p>
+                        <p class="price">$<%= elemento.precio %></p>
                         <p class="discount">40% off</p>
-                        <h4 class="description">Cafetera Moulinex</h4>
+                        <h4 class="description"><%= elemento.nombre %></h4>
                     </div>
                 </article>
-                <article>
+                <%   });  %>
+                <!-- <article>
                     <img src="/imagenes/img-macbook-pro-2019.jpg" alt="MacBook" class="product_img">
                     <div class="main-article">
                         <i class="fas fa-truck"></i>
@@ -104,8 +106,8 @@
                         <p class="discount">5% off</p>
                         <h4 class="description">SmartTv Samsung 43"</h4>
                     </div>
-                </article>
-            </div>  
+                </article> -->
+            </div> 
         </section>
     </main>
     <footer>
