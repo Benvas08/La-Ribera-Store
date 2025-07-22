@@ -6,7 +6,7 @@ const app = express(); // 2. INICIALIZACION
 
 app.use(express.static(path.join(__dirname, '../public'))); // 3. MIDDLEWARE PARA ARCHIVOS ESTATICOS
 
-app.set('view engine', 'ejs'); // CONDIFURACION DE VISTAS
+app.set('view engine', 'ejs'); // CONFIGURACION DE VISTAS
 app.set('views', path.join(__dirname, 'views')) ; //RUTA DE LAS VISTAS
 
 // Rutas

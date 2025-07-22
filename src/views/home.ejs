@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="main-header">
+    <!-- <header class="main-header">
         <div class="logo">Mi e-commerce</div>
         <nav class="main-nav">
             <ul>
@@ -18,7 +18,9 @@
                 <li><a href="/registrarse">Registrarse</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
+    <%- include('./partials/header.ejs') %>
+    <!-- Funcion donde colocamos nuestra ruta partials/header -->
     <section class="banner">
         <img src="/img/banner.jpg" alt="Promoción principal">
     </section>
@@ -110,8 +112,9 @@
             </div> 
         </section>
     </main>
-    <footer>
-        <div class="footer-container">
+    <%- include('./partials/footer.ejs') %>
+<!--      <footer>
+            <div class="footer-container">
             <div class="footer-section">
                 <h4>Acerca de :</h4>
                 <ul>
@@ -140,6 +143,6 @@
         <div class="copyright">
             <p>&copy; 2024 Mercado Libre. Todos los derechos reservados.</p>
         </div>
-    </footer>     
+    </footer> --->
 </body>
 </html>

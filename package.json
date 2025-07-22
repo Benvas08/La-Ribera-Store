@@ -8,7 +8,7 @@
     "dev": "nodemon src/app.js"
   },
   "keywords": [],
-  "author": "Benjamin Ezequiel Vasques Perrone",
+  "author": "Benja",
   "license": "ISC",
   "description": "",
   "dependencies": {
