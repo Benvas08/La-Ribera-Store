@@ -1,11 +1,15 @@
 const path = require('node:path');
 const data = require('../models/productos.json');
 const personas = require('../models/personas.json');
+const servicios = require('../models/servicios.json');
 
 const controller = {
     //Para mostrar archivos .ejs
     home: (req, res) => {
         res.render('home', {data:data})
+    },
+    servicios: (req, res) => {
+        res.render('servicios', {servicios})
     },
     personas: (req, res) => {
         res.render('personas', {personas})
@@ -16,9 +20,10 @@ const controller = {
     },
     //  Procesa los datos del formulario y los muestra en consola
     processform: (req, res) => {
-    const { nombre, apellido, edad, email, mensaje } = req.body;
-    console.log('Datos recibidos del formulario: ', {nombre, apellido, edad, email, mensaje});
+    const { nombre, apellido, edad, email } = req.body;
+    console.log('Datos recibidos del formulario: ', {nombre, apellido, edad, email });
     res.send('Formulario recibido, gracias por registrarte');
+
     }
 }
 

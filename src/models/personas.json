@@ -19,5 +19,27 @@
         "apellido": "Moyano",
         "edad": 17,
         "email": "marti@gmail.com"
+    },
+    {
+        "id": 4,
+        "nombre": "Fernando",
+        "apellido": "Tula",
+        "edad": 17,
+        "email": "..."
+    },
+    {
+        "id": 5,
+        "nombre": "Maira",
+        "apellido": ".",
+        "edad": 20,
+        "email": "..."
+    },
+    {
+        "id": 6,
+        "nombre": "Benlen",
+        "apellido": "Lucero",
+        "edad": 20,
+        "email": "..."
     }
+
 ]

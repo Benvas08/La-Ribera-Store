@@ -11,7 +11,7 @@ body {
 }
 
 .main-header {
-    background-color: #333;
+    background-color: rgb(11, 58, 11);
     color: white;
     padding: 15px 20px;
     display: flex;
@@ -67,11 +67,11 @@ main {
   /* Estilo para la sección 'Última Visita' */
 .last-visit {
     /* Definimos un fondo de color claro para que la sección se distinga del resto de la página */
-    background-color: #f9f9f9;
+    background-color: rgb(89, 128, 98);
     /* Agregamos un padding (espacio) interno para que los elementos no toquen el borde de la sección */
     padding: 20px;
     /* Le damos un borde en la parte superior para darle un toque visual */
-    border-top: 5px solid #000;
+    border-top: 5px solid rgb(3, 63, 3);
     /* Agregamos un margen inferior para separar esta sección del contenido siguiente */
     margin-bottom: 30px;
 }
@@ -83,7 +83,7 @@ main {
     /* Ponemos el texto en negrita para hacerlo más llamativo */
     font-weight: bold;
     /* Le damos un color oscuro para que se lea bien */
-    color: #333;
+    color: #ffffff;
     /* Dejamos un margen abajo para separarlo del contenido de los productos */
     margin-bottom: 15px;
 }
@@ -169,11 +169,11 @@ main {
 /* Estilo para la sección 'Ofertas' */
 .offers {
     /* Le damos un fondo gris muy claro para que se distinga del resto de la página */
-    background-color: #f9f9f9;
+    background-color: rgb(187, 231, 181);
     /* Agregamos un padding para que los elementos no toquen el borde de la sección */
     padding: 20px;
     /* Ponemos un borde superior para darle un toque visual a la sección */
-    border-top: 5px solid #000;
+    border-top: 5px solid rgb(3, 63, 3);
     /* Dejamos un margen en la parte inferior para separar esta sección de la siguiente */
     margin-bottom: 30px;
 }
@@ -271,7 +271,7 @@ main {
 
 /* Estilo básico para el footer */
 footer {
-    background-color: #333; /* Fondo oscuro */
+    background-color: rgb(11, 58, 11); /* Fondo oscuro */
     color: #fff; /* Texto blanco */
     padding: 20px 0; /* Espaciado vertical */
     text-align: center; /* Centrado de contenido */
