@@ -26,5 +26,12 @@
         "apellido": "Kiosco",
         "edad": "",
         "email": "el24dela25@gmail.com"
+    },
+    {
+        "id": 5,
+        "nombre": "Tecnolab",
+        "apellido": "Academia de robotica y programación",
+        "edad": "",
+        "email": "tecnolab.vm@gmail.com"
     }
 ]
