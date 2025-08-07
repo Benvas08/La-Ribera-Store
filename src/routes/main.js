@@ -4,8 +4,14 @@ const router = express.Router();
 const mainController = require('./../controller/mainController');
 
 router.get('/', mainController.home);
-// router.get('/productos', mainController.productos);
-// router.get('/registrarse', mainController.registrarse);
-//router.ger('/contact', mainController.contact);
+
+// Ruta  para el formulario
+router.get('/registrarse', mainController.form);
+
+router.post('/form', mainController.processform);
+
+router.get('/personas', mainController.personas);
+
+// router.get('/form', mainController.registrarse);
 
 module.exports = router;

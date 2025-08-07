@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Benja",
+        "apellido": "Vasques",
+        "edad": 17,
+        "email": "benja@gmail.com"
+    },
+    {
+        "id": 2,
+        "nombre": "Esteban",
+        "apellido": "Gonzalez",
+        "edad": 18,
+        "email": "esteban@gmail.com"
+    },
+    {
+        "id": 3,
+        "nombre": "Martiniano",
+        "apellido": "Moyano",
+        "edad": 17,
+        "email": "marti@gmail.com"
+    }
+]
