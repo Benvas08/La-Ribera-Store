@@ -1,45 +1,30 @@
 [
     {
         "id": 1,
-        "nombre": "Benja",
-        "apellido": "Vasques",
-        "edad": 17,
+        "nombre": "La Budineta",
+        "apellido": "Panadería",
+        "edad": "",
         "email": "benja@gmail.com"
     },
     {
         "id": 2,
-        "nombre": "Esteban",
-        "apellido": "Gonzalez",
-        "edad": 18,
+        "nombre": "Kiosco Esteban",
+        "apellido": "Kiosco",
+        "edad": "",
         "email": "esteban@gmail.com"
     },
     {
         "id": 3,
-        "nombre": "Martiniano",
-        "apellido": "Moyano",
-        "edad": 17,
-        "email": "marti@gmail.com"
+        "nombre": "MVP Store",
+        "apellido": "Tienda de videojuegos",
+        "edad": "",
+        "email": "mvpstore@gmail.com"
     },
     {
         "id": 4,
-        "nombre": "Fernando",
-        "apellido": "Tula",
-        "edad": 17,
-        "email": "..."
-    },
-    {
-        "id": 5,
-        "nombre": "Maira",
-        "apellido": ".",
-        "edad": 20,
-        "email": "..."
-    },
-    {
-        "id": 6,
-        "nombre": "Benlen",
-        "apellido": "Lucero",
-        "edad": 20,
-        "email": "..."
+        "nombre": "El 24 de la 25",
+        "apellido": "Kiosco",
+        "edad": "",
+        "email": "el24dela25@gmail.com"
     }
-
 ]

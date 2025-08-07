@@ -28,7 +28,7 @@
     </section> -->
         <main>
         <section class="last-visit">
-            <h3>Personas registradas</h3>
+            <h3>Negocios</h3>
             <div class="products">
                 <%  personas.forEach((elemento,index)=> {  %>
                 <article>
@@ -36,7 +36,7 @@
                     <div class="main-article">
                         <i class="fas fa-truck"></i>
                         <p class="price"><%= elemento.nombre %></p>
-                        <p class="price"><%= elemento.apellido %></p>
+                        <p class="description"><%= elemento.apellido %></p>
                         <h4 class="description"><%= elemento.edad %></h4>
                         <h4 class="description"><%= elemento.email %></h4>
                     </div>
