@@ -11,6 +11,7 @@
     <title>La Ribera Store</title>
 </head>
 <body>
+
     <!-- <header class="main-header">
         <div class="logo">Mi e-commerce</div>
         <nav class="main-nav">
@@ -30,7 +31,7 @@
         <section class="last-visit">
             <h3>Productos</h3>
             <div class="products">
-                <%  data.forEach((elemento,index)=> {  %>
+                <% data.forEach((elemento,index)=> {  %>
                 <article>
                     <img src="img/<%= elemento.imagen %>" alt="Cafetera" class="product_img">
                     <div class="main-article">
@@ -38,6 +39,9 @@
                         <p class="price">$<%= elemento.precio %></p>
                         <p class="discount">40% off</p>
                         <h4 class="description"><%= elemento.nombre %></h4>
+                        <% if (elemento.url) { %>
+                            <a href="<%= elemento.url %>">Ver más</a>
+                        <% } %>
                     </div>
                 </article>
                 <%  });  %>
@@ -68,6 +72,24 @@
                         <h4 class="description">SmartTv Samsung 43"</h4>
                     </div>
                 </article> -->
+            </div>
+        </section>
+        <section class="last-visit">
+            <h3>Personas registradas</h3>
+            <div class="products">
+                <% servicios.forEach((elemento,index)=> {  %>
+                <article>
+                    <img src="/img/<%= elemento.imagen %>" alt="Cafetera" class="product_img">
+                    <div class="main-article">
+                        <i class="fas fa-truck"></i>
+                        <p class="price"><%= elemento.nombre %></p>
+                        <br>
+                        <p class="price"><%= elemento.profesion %></p>
+                        <h4 class="description"><%= elemento.ubicacion %></h4>
+                        <h4 class="description"><%= elemento.telefono %></h4>
+                    </div>
+                </article>
+                <%   });  %>
             </div>
         </section>
         <!-- <section class="offers">

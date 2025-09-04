@@ -3,7 +3,8 @@
         "id": 1,
         "nombre": "Cafetera",
         "precio": 1000,
-        "imagen": "img-cafetera-moulinex.jpg"
+        "imagen": "img-cafetera-moulinex.jpg",
+        "url": "../views/info_individual/cafetera.ejs"
     },
     {
         "id": 2,
@@ -21,7 +22,8 @@
         "id": 4,
         "nombre": "Televisor",
         "precio": 1200,
-        "imagen": "img-tv-samsung-smart.jpg"
+        "imagen": "img-tv-samsung-smart.jpg",
+        "url": ""
     },
     {
         "id": 5,

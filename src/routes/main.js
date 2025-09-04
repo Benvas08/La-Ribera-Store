@@ -15,6 +15,11 @@ router.post('/form', mainController.processform);
 // Ruta para mostrar las personas registradas
 router.get('/personas', mainController.personas);
 
+router.get('/usuarios', mainController.usuarios);
+// const infoController = require('../controller/infoController');
+
+// router.get('/cafetera', 'views/infoController/cafetera.ejs'); 
+
 // router.get('/form', mainController.registrarse);
 
 module.exports = router;
