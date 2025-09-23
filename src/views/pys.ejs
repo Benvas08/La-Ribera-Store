@@ -24,22 +24,16 @@
     </header> -->
     
     <section class="registration-form">
-        <h2>Registrarse</h2>
-        <form action="/form" method="post"> <br />
+        <h2>Productos y Servicios</h2>
+        <form action="/agregar" method="post"> <br />
+            <label for="pys">P&S</label>
+            <input type="cheackbox" id="pys" name="pys" required /> <br /> <br />
+
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required /> <br /> <br />
 
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" required /> <br /> <br />
-
-            <label for="edad">Edad:</label>
-            <input type="text" id="edad" name="edad" required /> <br /> <br />
-
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required /> <br /> <br />
-
-            <label for="password">Contraseña:</label>
-            <input type="password" id="password" name="password" required /> <br /> <br />
+            <label for="imagen">Imagen</label>
+            <input type="img" id="imagen" name="imagen" required /> <br /> <br />
 
             <button type="submit">Enviar</button>
         </form>

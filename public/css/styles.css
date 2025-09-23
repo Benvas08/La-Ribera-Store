@@ -370,3 +370,118 @@ form button:hover {
 .message.error {
     color: red; /* Mensaje de error en rojo */
 }
+
+
+
+
+/* Estilo para nuestro login */
+.login-form {
+    background-color: rgb(187, 231, 181);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto; /* Centrar el formulario horizontalmente y agregar margen superior */
+}
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-style: italic;
+    color: #000000;
+    text-shadow: #424242;
+    display: flex; /* Usamos flexbox para centrar el título */
+    justify-content: center; /* Centra el título horizontalmente */
+}
+
+.login-form-action {
+    background-color: #f9f9f9; /* Fondo claro para el formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+}
+.login-form-action label {
+    display: block; /* Cada etiqueta en una nueva línea */
+    margin-bottom: 8px; /* Espaciado debajo de cada etiqueta */
+    font-weight: bold; /* Etiquetas en negrita */
+}
+.login-form-action input {
+    width: 100%; /* Los campos ocupan todo el ancho del formulario */
+    padding: 10px; /* Espaciado interno en los campos */
+    margin-bottom: 15px; /* Espaciado debajo de cada campo */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Esquinas ligeramente redondeadas */
+}
+.login-form-action button {
+    background-color: #333; /* Fondo oscuro para el botón */
+    color: #fff; /* Texto blanco */
+    padding: 10px 15px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+.login-form-action button:hover {
+    background-color: #555; /* Cambia el color del botón al pasar el mouse */
+}
+/* .login-help h3{
+    color: blue;
+    text-align: center;
+    font-size: 20px;
+    font-style: oblique;
+} */
+.login-form-action a {
+    color: blue;
+    text-decoration: none;
+    font-size: 15px;
+}
+.login-form-action a:hover{
+    background-color: rgb(187, 231, 181);
+    text-decoration: underline;
+}
+
+/* Estilos responsivos para pantallas
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* panatalla pequeñas (móviles) */
+/* @media (min-width: 320px){
+    main {
+        flex-direction: column; /* Los artículos se apilan en columna 
+        align-items: center; /* Centra los artículos horizontalmente 
+    }
+
+    .last-visit .products, .offers .products {
+        flex-direction: column; /* Los productos se apilan en columna 
+        align-items: center; /* Centra los productos horizontalmente 
+    } 
+
+    .last-visit article, .offers article {
+        width: 90%; /* Los artículos ocupan el 90% del ancho del contenedor 
+    }
+
+    .navbar {
+        flex-direction: column; /* Los elementos del navbar se apilan en columna 
+        align-items: center; /* Centra los elementos del navbar 
+    }
+}
+
+/* pantallas medianas (tablets) */
+/*@media (min-width: 480px){
+    main {
+        flex-direction: row; /* Los artículos se organizan en fila 
+        justify-content: space-around; /* Espacio alrededor de los artículos 
+    }
+
+    .last-visit .products, .offers .products {
+        flex-direction: row; /* Los productos se organizan en fila 
+        justify-content: center; /* Centra los productos horizontalmente 
+    }
+
+    .last-visit article, .offers article {
+        width: 45%; /* Los artículos ocupan el 45% del ancho del contenedor 
+    }
+} */

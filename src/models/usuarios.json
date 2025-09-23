@@ -16,5 +16,51 @@
     "apellido": "Silva",
     "edad": ".",
     "email": "vj@fyufuy"
+  },
+  {
+    "nombre": "Benja",
+    "apellido": "Vasques",
+    "edad": "17",
+    "email": "cnwin@CKJEWMC"
+  },
+  {
+    "nombre": "Braian",
+    "apellido": "Nievas",
+    "edad": "19",
+    "email": "braian@gmail.com"
+  },
+  {
+    "nombre": "aaaa",
+    "apellido": "bbbb",
+    "edad": "20",
+    "email": "sasd@ndnfoi"
+  },
+  {
+    "nombre": "aaaa",
+    "apellido": "bbbb",
+    "edad": "20",
+    "email": "sasd@ndnfoi",
+    "password": "12345"
+  },
+  {
+    "nombre": "Benja",
+    "apellido": "Vasques",
+    "edad": "17",
+    "email": "1234@5678",
+    "password": "12345678"
+  },
+  {
+    "nombre": "Pepe",
+    "apellido": "Pablo",
+    "edad": "34",
+    "email": "pepe@pablo",
+    "password": "12345678"
+  },
+  {
+    "nombre": "Andres G",
+    "apellido": "Silva",
+    "edad": ".",
+    "email": "andres@silva",
+    "password": "andres"
   }
 ]
