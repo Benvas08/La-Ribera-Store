@@ -315,14 +315,22 @@ footer {
     /*flex-direction: column; /* Los elementos se organizan en columna */
     /*align-items: center; /* Centra los elementos horizontalmente */
     /*padding: 20px; /* Espaciado interno */
-    background-color: rgb(187, 231, 181);
+    /* background-color: rgb(187, 231, 181);
     padding-bottom: 20px; /* Espaciado interno */
-    padding-top: 20px; /* Espaciado interno */
+    /*padding-top: 20px; Espaciado interno */
+    background-color: rgb(187, 231, 181);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
 }
 .registration-form h2 {
-    margin-bottom: 20px; /* Espaciado debajo del título */
-    font-size: 24px; /* Tamaño del título */
-    color: #333; /* Color del título */
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-style: italic;
+    color: #000000;
+    text-shadow: #424242;
     display: flex; /* Usamos flexbox para centrar el título */
     justify-content: center; /* Centra el título horizontalmente */
 }

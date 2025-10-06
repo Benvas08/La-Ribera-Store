@@ -77,7 +77,7 @@ const controller = {
         // 4. Agregar el nuevo usuario
         usuarios.push(nuevoUsuario); // Push añade el nuevo usuario al array de usuarios
 
-        // 5. Guarda el array actualizado en usuario.json
+        // 5. Guarda el array actualizado en usuarioS.json
         fs.writeFileSync(archivoUsuarios, JSON.stringify(usuarios, null, 2), 'utf-8');  // Parse de nuevo para poder pasarlo a JSON asi lo escribimos en el archivo
 
         console.log('Datos guardados correctamente: ', nuevoUsuario);

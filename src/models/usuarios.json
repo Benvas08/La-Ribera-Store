@@ -62,5 +62,19 @@
     "edad": ".",
     "email": "andres@silva",
     "password": "andres"
+  },
+  {
+    "nombre": "Carlitos ",
+    "apellido": "Becerra",
+    "edad": "18",
+    "email": "santib@gmail.com",
+    "password": "12345678"
+  },
+  {
+    "nombre": "Santi",
+    "apellido": "Fornes",
+    "edad": "18",
+    "email": "santi@fornes",
+    "password": "123456"
   }
 ]
