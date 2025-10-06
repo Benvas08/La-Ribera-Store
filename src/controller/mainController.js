@@ -81,7 +81,13 @@ const controller = {
         fs.writeFileSync(archivoUsuarios, JSON.stringify(usuarios, null, 2), 'utf-8');  // Parse de nuevo para poder pasarlo a JSON asi lo escribimos en el archivo
 
         console.log('Datos guardados correctamente: ', nuevoUsuario);
-        res.send('Formulario recibido y usuario guardado correctamente en usuario.json!');
+        // res.alert('Formulario recibido y usuario guardado correctamente en usuario.json!');
+        //res.redirect('/');
+
+        // Muestra en nuestro login un mensaje de que se ha guardado correctamente
+        res.redirect('/?msg=guardado');
+        
+        //res.send('Formulario recibido y usuario guardado correctamente en usuario.json!');
     },
 
     // Nos muestra nuestro login
@@ -97,7 +103,7 @@ const controller = {
         // Validacion minima
         if (!email || !password) {
             // console.log('Validacion minima fallida: Email y contraseña son obligatorios');
-            return res.status(400).render('login', { errror: 'Email y contraseña son obligatorios' });
+            return res.status(400).render('login', { error: 'Email y contraseña son obligatorios' });
         }
 
         const usuario = leerUsuarios();
@@ -115,7 +121,9 @@ const controller = {
         } else {
             // console.log('Login exitoso para el usuario:', usuario_seguro);
             // return res.render('/') //{ exito: 'Login exitoso, bienvenido ' + usuario_seguro.nombre + ' ' + usuario_seguro.apellido });
-            return res.redirect('/');
+            // return res.redirect('/');
+
+            return res.redirect('/?usuario=correcto');
         }
     }
 }

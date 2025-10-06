@@ -76,5 +76,40 @@
     "edad": "18",
     "email": "santi@fornes",
     "password": "123456"
+  },
+  {
+    "nombre": "andres",
+    "apellido": "silva",
+    "edad": "45",
+    "email": "andres@gmail.com",
+    "password": "123"
+  },
+  {
+    "nombre": "Pepe",
+    "apellido": ".",
+    "edad": ".",
+    "email": "123@456",
+    "password": "123456"
+  },
+  {
+    "nombre": "Benja",
+    "apellido": "Vas",
+    "edad": "17",
+    "email": "ezequiel@gmail.com",
+    "password": "123456"
+  },
+  {
+    "nombre": "Benja",
+    "apellido": "Vaasques",
+    "edad": "18",
+    "email": "benjaaa@gmail.com",
+    "password": "12345"
+  },
+  {
+    "nombre": "Santiago",
+    "apellido": "Ponce",
+    "edad": "18",
+    "email": "poncesanti17@gmail.com",
+    "password": "1234567"
   }
 ]
